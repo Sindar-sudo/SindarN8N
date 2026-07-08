@@ -1,4 +1,4 @@
-FROM docker.n8n.io/n8nio/n8n:2.11.4
+FROM docker.n8n.io/n8nio/n8n:2.29.8
 USER root
 RUN ARCH=$(uname -m) && \
     wget -qO- "http://dl-cdn.alpinelinux.org/alpine/latest-stable/main/${ARCH}/" | \
